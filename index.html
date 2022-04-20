@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+     <script src="arquivo.js" defer></script>
+</head>
+<h1>Verificador de Gênero</h1>
+<body id="body">
+
+    <div id="div">
+       
+    <input type="radio" name="gen" id="m" class="rad">
+     <label for="m">Masculino</label> <br>
+
+    <input type="radio" name="gen" id="f" class="rad"> 
+        <label for="f">Feminino</label> <br>
+
+    <input type="radio" name="gen" id="i" class="rad">
+        <label for="i">Indefinido</label> <br>
+         
+
+   <button onclick="verificar()" class="gen"> verificar</button>
+   <button onclick="reset()" class="gen"> reset</button>
+   </div>
+   <div id="re"><p id="res"> </p>
+    
+</div>
+
+
+</body>
+</html>

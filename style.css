@@ -1,0 +1,38 @@
+body{
+    background:linear-gradient(to left, red, blue);
+}
+h1{text-align: center;
+    background: rgba(245, 245, 245, 0.11);
+    font-size: 45px;
+}
+
+
+#div{
+    text-align: center;
+    color:aliceblue;
+}
+button{
+    background:linear-gradient(to right, rgba(255, 0, 0, 0.226), rgba(0, 0, 255, 0.404)) ;
+    color: rgb(226, 226, 226);
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#re{
+    margin-top: 100px;
+    text-align: center;
+    color:white;
+    font-size: 40px;
+}
+label{
+    padding-top: 20px;
+    cursor: grab;
+    font-size: 25px;
+}
+#f{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.rad{
+    width: 20px;
+    height: 20px;
+}
